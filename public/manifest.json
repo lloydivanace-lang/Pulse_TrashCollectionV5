@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "P.U.L.S.E. - Barangay 40 & 41",
+  "short_name": "P.U.L.S.E.",
+  "description": "P.U.L.S.E. - Barangay 40 & 41 Waste Collection & Kagawad Proof Management System with Raspberry Pi Cloud Storage",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#059669",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

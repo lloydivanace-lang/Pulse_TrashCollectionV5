@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient: Deep Forest & Emerald Glow -->
+    <radialGradient id="bgGlow" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="60%" stop-color="#022c22"/>
+      <stop offset="100%" stop-color="#011510"/>
+    </radialGradient>
+    <!-- Floor Drop Shadow under Trash Can -->
+    <radialGradient id="floorShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#000000" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Metallic/Emerald Lid Gradient -->
+    <linearGradient id="lidGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="25%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#34d399"/>
+      <stop offset="75%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#065f46"/>
+    </linearGradient>
+    <!-- Lid Handle Gradient -->
+    <linearGradient id="handleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="50%" stop-color="#6ee7b7"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+    <!-- Main Trash Can Body 3D Cylindrical Shading -->
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="15%" stop-color="#059669"/>
+      <stop offset="40%" stop-color="#10b981"/>
+      <stop offset="65%" stop-color="#34d399"/>
+      <stop offset="85%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+    <!-- Can Rim Bevel Gradient -->
+    <linearGradient id="rimGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#065f46"/>
+      <stop offset="30%" stop-color="#6ee7b7"/>
+      <stop offset="50%" stop-color="#a7f3d0"/>
+      <stop offset="70%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#065f46"/>
+    </linearGradient>
+    <!-- Rib/Groove Dark Line Gradient -->
+    <linearGradient id="grooveDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#022c22" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#065f46" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#011510" stop-opacity="0.9"/>
+    </linearGradient>
+    <!-- Rib/Groove Highlight Line Gradient -->
+    <linearGradient id="grooveLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#a7f3d0" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <!-- App Squircle Outer Background -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGlow)"/>
+  <rect x="6" y="6" width="500" height="500" rx="106" fill="none" stroke="#10b981" stroke-width="2.5" stroke-opacity="0.3"/>
+  <!-- Floor Contact Shadow -->
+  <ellipse cx="256" cy="445" rx="150" ry="24" fill="url(#floorShadow)"/>
+  <ellipse cx="256" cy="442" rx="95" ry="12" fill="#000000" opacity="0.6"/>
+  <!-- TRASH CAN BODY (Basurahan) -->
+  <!-- Tapered Can Main Shape -->
+  <path d="M 148 180 L 364 180 L 332 422 Q 332 436 256 436 Q 180 436 180 422 Z" fill="url(#bodyGrad)"/>
+  <!-- 3D Cylindrical Highlight Beam on the front -->
+  <path d="M 230 180 L 285 180 L 275 434 L 237 434 Z" fill="#ffffff" opacity="0.12"/>
+  <path d="M 245 180 L 265 180 L 260 434 L 252 434 Z" fill="#ffffff" opacity="0.15"/>
+  <!-- Horizontal Embossed Ribs / Fluting of the Can -->
+  <!-- Rib 1 -->
+  <path d="M 152 230 Q 256 244 360 230" stroke="url(#grooveDark)" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M 152 232 Q 256 246 360 232" stroke="url(#grooveLight)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Rib 2 -->
+  <path d="M 159 295 Q 256 308 353 295" stroke="url(#grooveDark)" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M 159 297 Q 256 310 353 297" stroke="url(#grooveLight)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Rib 3 -->
+  <path d="M 166 360 Q 256 372 346 360" stroke="url(#grooveDark)" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M 166 362 Q 256 374 346 362" stroke="url(#grooveLight)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Eco / Clean Waste Recycling Arrows Emblem in the Center -->
+  <g transform="translate(256, 325) scale(0.65)">
+    <!-- Arrow 1 (Top Left to Top Right) -->
+    <path d="M -35 -20 C -25 -42 10 -46 32 -30 L 38 -42 L 48 -18 L 22 -18 L 28 -28 C 12 -40 -18 -36 -28 -18 Z" fill="#ffffff" opacity="0.85"/>
+    <!-- Arrow 2 (Right to Bottom) -->
+    <path d="M 40 -5 C 50 16 35 45 10 50 L 16 62 L -6 52 L 4 30 L 8 40 C 26 36 38 12 30 -5 Z" fill="#ffffff" opacity="0.85"/>
+    <!-- Arrow 3 (Bottom to Left) -->
+    <path d="M -5 50 C -28 48 -46 25 -42 0 L -54 0 L -42 -20 L -30 0 L -38 0 C -40 18 -24 38 -5 40 Z" fill="#ffffff" opacity="0.85"/>
+  </g>
+  <!-- Solid Bottom Metal Base Ring -->
+  <ellipse cx="256" cy="425" rx="76" ry="11" fill="#022c22"/>
+  <path d="M 180 422 L 332 422 L 328 434 Q 328 442 256 442 Q 184 442 184 434 Z" fill="#064e3b" stroke="#047857" stroke-width="2"/>
+  <!-- Side Lift Handles on Can -->
+  <!-- Left Handle -->
+  <path d="M 148 245 C 124 245 120 280 144 285" fill="none" stroke="#047857" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 148 245 C 124 245 120 280 144 285" fill="none" stroke="#6ee7b7" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <!-- Right Handle -->
+  <path d="M 364 245 C 388 245 392 280 368 285" fill="none" stroke="#047857" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 364 245 C 388 245 392 280 368 285" fill="none" stroke="#6ee7b7" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <!-- MAIN TOP RIM OF CAN -->
+  <ellipse cx="256" cy="180" rx="112" ry="18" fill="url(#rimGrad)" stroke="#064e3b" stroke-width="2.5"/>
+  <!-- LID SHADOW ON CAN -->
+  <ellipse cx="256" cy="177" rx="118" ry="16" fill="#000000" opacity="0.45"/>
+  <!-- LID OVERHANG (Ang Takip ng Basurahan) -->
+  <!-- Stepped Lid Dome -->
+  <path d="M 134 168 Q 256 182 378 168 L 366 142 Q 256 128 146 142 Z" fill="url(#lidGrad)"/>
+  <!-- Lid Bevel Rim -->
+  <ellipse cx="256" cy="168" rx="122" ry="17" fill="url(#rimGrad)" stroke="#022c22" stroke-width="2.5"/>
+  <path d="M 152 170 Q 256 182 360 170" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" opacity="0.85"/>
+  <!-- Lid Upper Dome Tier -->
+  <ellipse cx="256" cy="144" rx="92" ry="13" fill="url(#lidGrad)" stroke="#064e3b" stroke-width="2"/>
+  <ellipse cx="256" cy="138" rx="66" ry="9" fill="#059669" stroke="#047857" stroke-width="1.5"/>
+  <!-- Lid Top Center Handle -->
+  <path d="M 226 136 C 226 106 286 106 286 136" fill="none" stroke="#022c22" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 226 136 C 226 106 286 106 286 136" fill="none" stroke="url(#handleGrad)" stroke-width="9" stroke-linecap="round"/>
+  <path d="M 234 126 C 242 114 270 114 278 126" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+  <!-- Sparkle Glint on Lid Rim -->
+  <circle cx="178" cy="168" r="4" fill="#ffffff" opacity="0.9"/>
+  <path d="M 178 160 L 178 176 M 170 168 L 186 168" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+</svg>

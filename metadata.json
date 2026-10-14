@@ -1,0 +1,6 @@
+{
+  "name": "P.U.L.S.E.",
+  "description": "P.U.L.S.E. - Barangay 40 & 41 Waste Collection & Kagawad Proof Management System with Raspberry Pi Cloud Storage",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

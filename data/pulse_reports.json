@@ -1,0 +1,97 @@
+[
+  {
+    "id": "rep-pulse-001",
+    "ticketNumber": "PULSE-CAV-001",
+    "residentName": "Nanay Remedios Ramos",
+    "residentPhone": "N/A",
+    "isElderly": true,
+    "severityLevel": "OVERFLOWING",
+    "purok": "Barangay 41, Cavite City",
+    "barangay": "Barangay 41",
+    "streetAddress": "P. Burgos Ave cor. M. Miranda St.",
+    "houseNumber": "#128",
+    "landmark": "Tapat ng sari-sari store",
+    "coordinates": {
+      "lat": 14.4838,
+      "lng": 120.8985
+    },
+    "autoGpsAccurate": true,
+    "realtimeGpsAddress": "P. Burgos Ave, San Roque, Cavite City",
+    "isWithinBrgy41": true,
+    "isWithinJurisdiction": true,
+    "needsAssistanceOutside": false,
+    "wasteTypes": [
+      "Household Trash",
+      "Yard & Garden Trimmings",
+      "Senior Citizen Priority"
+    ],
+    "urgency": "URGENT_ELDERLY",
+    "estimatedBags": "3-5 sako",
+    "photos": [
+      "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'><rect width='400' height='300' fill='%230f172a'/><circle cx='200' cy='150' r='60' fill='%2310b981' opacity='0.2'/><text x='200' y='145' font-size='16' font-family='sans-serif' font-weight='bold' fill='%2310b981' text-anchor='middle'>P.U.L.S.E. Sample Report</text><text x='200' y='175' font-size='12' font-family='sans-serif' fill='%2394a3b8' text-anchor='middle'>Basura sa Tabi ng Kalsada (Brgy 41)</text></svg>"
+    ],
+    "notes": "Pakitulungan po ang senior citizen sa pagbuhat.",
+    "extraMessage": "Nasa loob po ng gate ang dalawang sako, salamat po mga Kagawad!",
+    "status": "PENDING",
+    "createdAt": "2026-10-14T07:15:00.000Z",
+    "proofPhotos": [],
+    "sourceStorage": "Raspberry Pi Cloud Storage",
+    "storageUsedMb": 0.8,
+    "residentPhotosSizeMb": 0.8,
+    "proofPhotosSizeMb": 0,
+    "retentionDays": 30,
+    "expiresAt": "2026-11-13T07:15:00.000Z",
+    "remindersSent": 1,
+    "lastReminderAt": "2026-10-14T07:15:00.000Z"
+  },
+  {
+    "id": "rep-pulse-002",
+    "ticketNumber": "PULSE-CAV-002",
+    "residentName": "Carlos Mendoza",
+    "residentPhone": "N/A",
+    "isElderly": false,
+    "severityLevel": "MODERATE",
+    "purok": "Barangay 40, Cavite City",
+    "barangay": "Barangay 40",
+    "streetAddress": "M. Miranda St., San Roque",
+    "houseNumber": "#45",
+    "landmark": "Malapit sa Outpost",
+    "coordinates": {
+      "lat": 14.4822,
+      "lng": 120.8945
+    },
+    "autoGpsAccurate": true,
+    "realtimeGpsAddress": "M. Miranda St., San Roque, Cavite City",
+    "isWithinBrgy41": false,
+    "isWithinJurisdiction": true,
+    "needsAssistanceOutside": false,
+    "wasteTypes": [
+      "Household Trash"
+    ],
+    "urgency": "NORMAL",
+    "estimatedBags": "1-2 sako",
+    "photos": [
+      "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'><rect width='400' height='300' fill='%230f172a'/><circle cx='200' cy='150' r='60' fill='%2306b6d4' opacity='0.2'/><text x='200' y='145' font-size='16' font-family='sans-serif' font-weight='bold' fill='%2306b6d4' text-anchor='middle'>P.U.L.S.E. Sample Report</text><text x='200' y='175' font-size='12' font-family='sans-serif' fill='%2394a3b8' text-anchor='middle'>Naipong Basura sa Tapat (Brgy 40)</text></svg>"
+    ],
+    "notes": "Pang-araw-araw na basura.",
+    "extraMessage": "",
+    "status": "RESOLVED",
+    "createdAt": "2026-10-13T10:30:00.000Z",
+    "resolvedAt": "2026-10-13T11:45:00.000Z",
+    "resolvedBy": "Kagawad Juan Dela Cruz",
+    "resolutionNotes": "Nakolekta na po ng sanitation team kaninang umaga. Malinis na ang buong kalsada.",
+    "proofPhotos": [
+      "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'><rect width='400' height='300' fill='%23064e3b'/><circle cx='200' cy='150' r='60' fill='%2334d399' opacity='0.3'/><text x='200' y='145' font-size='16' font-family='sans-serif' font-weight='bold' fill='%236ee7b7' text-anchor='middle'>KATIBAYAN / OFFICIAL PROOF</text><text x='200' y='175' font-size='12' font-family='sans-serif' fill='%23ecfdf5' text-anchor='middle'>Malinis na Lugar (Nangolekta: Kagawad Juan)</text></svg>"
+    ],
+    "proofSubmittedAt": "2026-10-13T11:45:00.000Z",
+    "proofKagawadName": "Kagawad Juan Dela Cruz",
+    "sourceStorage": "Raspberry Pi Cloud Storage",
+    "storageUsedMb": 1.55,
+    "residentPhotosSizeMb": 0.8,
+    "proofPhotosSizeMb": 0.75,
+    "retentionDays": 30,
+    "expiresAt": "2026-11-12T10:30:00.000Z",
+    "remindersSent": 1,
+    "lastReminderAt": "2026-10-13T10:30:00.000Z"
+  }
+]
